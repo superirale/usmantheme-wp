@@ -1,3 +1,4 @@
+<?php //Template Name: AllPosts ?>
 <?php get_header(); ?>
       <div class="posts">
         <div class="post">
