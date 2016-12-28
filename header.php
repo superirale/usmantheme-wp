@@ -15,10 +15,10 @@
     <?php wp_head();?>
 
   </head>
-<?php if ( have_posts() ) {?>
-  <body class="bg">
-<?php }else{ ?>
+<?php if ( !is_home() ) {?>
   <body class="bg-white">
+<?php }else{ ?>
+  <body class="bg">
   <?php } ?>
 
     <nav class="navbar navbar-custom navbar-fixed-top">
