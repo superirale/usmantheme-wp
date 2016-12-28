@@ -1,3 +1,16 @@
+/*
+Theme Name: UsmanTheme
+Theme URI: http://usman.com.ng/
+Description: My personal website theme
+Author: Irale Usman
+Author URI: http://usman.com.ng
+Template: tushblog
+Version: 1.0
+Tags: your, tags, here
+.
+Add any comments here!
+.
+*/
 @charset "UTF-8";
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -8268,7 +8281,7 @@ h1, h2, h3, h4, h5 {
   max-width: 350px; }
 
 .profile-image {
-  margin: 0 auto 20px; }
+  margin: 0 auto 10px; }
   .profile-image img {
     width: 160px;
     height: 160px;
@@ -8277,8 +8290,10 @@ h1, h2, h3, h4, h5 {
 .profile-name {
   margin-bottom: 20px;
   color: #fff;
-  font-weight: 600;
   text-align: center; }
+  .profile-name h1, .profile-name h2, .profile-name h3, .profile-name h4, .profile-name h5 {
+    margin-top: 20px;
+    font-weight: 700; }
 
 .profile-description {
   margin-bottom: 10px; }
