@@ -19,7 +19,7 @@
   <body class="bg">
 <?php }else{ ?>
   <body class="bg-white">
-  }
+  <?php } ?>
 
     <nav class="navbar navbar-custom navbar-fixed-top">
       <div class="container">
@@ -34,9 +34,9 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <!-- <li><a href="#contact">Contact</a></li> -->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
