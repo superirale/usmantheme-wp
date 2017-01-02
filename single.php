@@ -18,7 +18,7 @@
             <br><br>
 
             <a class="twitter-share-button"
-              href="https://twitter.com/intent/tweet?text=Introduction to Flask"
+              href="https://twitter.com/intent/tweet?text=<?php the_title();?>"
               data-size="large"><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             Tweet</a>
         </p>
