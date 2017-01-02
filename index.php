@@ -3,7 +3,7 @@
       <div class="posts">
 
       <?php $temp = $wp_query; $wp_query= null;
-            $wp_query = new WP_Query(); $wp_query->query('showposts=2' . '&paged='.$paged);
+            $wp_query = new WP_Query(); $wp_query->query('showposts=50' . '&paged='.$paged);
       ?>
       <?php if($wp_query->have_posts()):?>
         <?php while($wp_query->have_posts()): $wp_query->the_post();?>
