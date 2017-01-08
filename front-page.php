@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-    <title><?php bloginfo('name'); ?> <?php wp_title('‐'); ?></title>
+    <title><?php bloginfo('name'); ?></title>
     <!-- Custom styles for this template -->
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
     <?php wp_head();?>
